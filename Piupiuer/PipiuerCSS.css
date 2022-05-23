@@ -1,0 +1,256 @@
+*{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.PaginaPrincipal{
+    display: flex;
+}
+.MenuEsquerda{
+    margin-top: 32px;
+    margin-left: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 264px;
+    
+}
+
+.ImagemFenix{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.BotoesEsquerda{
+    display: flex;
+    flex-direction: column;
+    
+}
+.BotaoPaginaInicial{
+    margin-top: 64px;
+    box-sizing: border-box;
+    width: 266px;
+    height: 42px;
+    background: rgba(255, 162, 75, 0.4);
+    border: 1px solid rgba(255, 162, 75, 0.6);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    align-items: center;
+    line-height: 42px;
+}
+
+.BotaoExplorar{
+    margin-top: 16%;
+    box-sizing: border-box;
+    width: 266px;
+    height: 42px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 162, 75, 0.6);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-size: 36px;
+    line-height: 42px;
+    align-items: center;
+}
+
+.BotaoMensagens{
+    margin-top: 16%;
+    box-sizing: border-box;
+    width: 266px;
+    height: 42px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 162, 75, 0.6);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-size: 36px;
+    line-height: 42px;
+    align-items: center;
+}
+
+.BotaoPerfil{
+    margin-top: 16%;
+    box-sizing: border-box;
+    width: 266px;
+    height: 42px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 162, 75, 0.6);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-size: 36px;
+    line-height: 42px;
+    align-items: center;
+}
+
+.CaixaUser{
+    margin-top: 320px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    width: 216px;
+    height: 64px;
+    margin-left: 0px;
+}
+
+
+
+.CorpoCentral{
+    margin-top: 24px;
+    margin-left: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.CaixaPostarPiu{
+    display: flex;
+    box-sizing: border-box;
+    width: 70vw;
+    height: 240px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+}
+
+.UserImagem{
+    margin-left: 32px;
+    margin-top: 16px;
+    font-size: 40px;
+
+}
+
+.TextArea{
+    border-color: white;
+    margin-top: 20px;
+    width: 80%;
+    height: 80%;
+    margin-left: 20px;
+    font-size: 36px;
+}
+
+.TextAreaEBotao{
+    display:flex;
+    flex-direction: row;
+}
+
+
+.BotaoPiuar{
+    margin-top: 12%;
+    margin-right: 5%;
+    padding: 0px 23px;
+    gap: 10px;
+    width: 166px;
+    height: 53px;
+    background: rgba(255, 92, 0, 0.62);
+    border-radius: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.CaixaPiuFeed{
+    box-sizing: border-box;
+    width: 70vw;
+    height: max-content;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 8px;
+}
+
+.ImagemEUser{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    gap: 32px;
+    margin-top: 16px;
+    margin-left: 32px;
+    font-size: 36px;
+    align-items: center;
+
+}
+
+.UserEArroba{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.Arroba{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+}
+
+.TextoPiu{
+    font-size: 36px;
+    margin-left: 36px;
+    margin-top: 8px;
+    word-break: break-all;
+}
+
+.IconesInteracao{
+    margin-bottom: 8px;
+    margin-left: 144px;
+    display: flex;
+    gap: 64px;
+}
+.EspacoImagemPost{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.ImagemPost{
+    width: 762px;
+    height: 1000px;
+    border-radius: 30px;
+}
+
+#contador{
+    display: flex;
+    flex-direction: row;
+}
+
+#contadorESubmit{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.TextAreaESubmit{
+    display: flex;
+    width: 100%;
+    gap: 24px;   
+}
+
+.BotaoPiuar{
+    cursor: pointer;
+    text-align: center;
+}
+
+.PiusFeed{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+}
+
+.ImagemUser{
+    clip-path:circle();
+    border-radius: 100%;
+    border: 3px solid orangered;
+}
+
+.BotaoLike{
+    opacity: 0.5;
+}
+
+.BotaoFavoritar{
+    opacity: 0.5;
+}
+
+.hidden{
+    display: none;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piupiuer-Home</title>
+    <link rel="stylesheet" href="PipiuerCSS.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Nunito+Sans&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,200&display=swap');
+    </style>
+    <script src="Exemplo.js" defer></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+<body>
+    <div class="PaginaPrincipal">
+        <div class="MenuEsquerda">              
+            <div class="ImagemFenix">
+                <img src="ImagemFenix.svg">
+            </div>
+
+            <div class="BotoesEsquerda">
+                <button type="button" class="BotaoPaginaInicial">Página Inicial</button>
+
+                <button type="button" class="BotaoExplorar">#Explorar</button>
+
+                <button type="button" class="BotaoMensagens">
+                    <svg width="35" height="33" viewBox="0 0 35 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M25.9583 4H9.04167C7.43991 4.00188 5.9043 4.62504 4.77168 5.73281C3.63907 6.84057 3.00192 8.34248 3 9.90909L3 24.0909C3.00192 25.6575 3.63907 27.1594 4.77168 28.2672C5.9043 29.375 7.43991 29.9981 9.04167 30H25.9583C27.5601 29.9981 29.0957 29.375 30.2283 28.2672C31.3609 27.1594 31.9981 25.6575 32 24.0909V9.90909C31.9981 8.34248 31.3609 6.84057 30.2283 5.73281C29.0957 4.62504 27.5601 4.00188 25.9583 4ZM9.04167 6.36364H25.9583C26.6819 6.36503 27.3884 6.57815 27.9871 6.97559C28.5857 7.37302 29.0491 7.93657 29.3175 8.59373L20.0641 17.6453C19.3831 18.3086 18.4611 18.6811 17.5 18.6811C16.5389 18.6811 15.6169 18.3086 14.9359 17.6453L5.6825 8.59373C5.95093 7.93657 6.41428 7.37302 7.01293 6.97559C7.61158 6.57815 8.31813 6.36503 9.04167 6.36364ZM25.9583 27.6364H9.04167C8.08026 27.6364 7.15822 27.2628 6.4784 26.5979C5.79859 25.933 5.41667 25.0312 5.41667 24.0909V11.6818L13.2273 19.3164C14.3615 20.4228 15.8981 21.0442 17.5 21.0442C19.1019 21.0442 20.6385 20.4228 21.7727 19.3164L29.5833 11.6818V24.0909C29.5833 25.0312 29.2014 25.933 28.5216 26.5979C27.8418 27.2628 26.9197 27.6364 25.9583 27.6364Z" fill="black"/>
+                    </svg>                        
+                    Mensagens
+                </button>
+                <button type="button" class="BotaoPerfil">
+                    <img src="ImagemPerfil.svg">
+                    Perfil
+                </button>
+            </div>
+            <div class="CaixaUser">
+                <img src="ImagemUser.svg" width="48px" height="48px"> 
+                <div class="NomeEUser">
+                    <p class="Nome"><strong>Pejoteiro</strong> <br> @pejoteiro123</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="CorpoCentral">
+            <h1 class="Pagina PrincipaTexto">Página Principal</h1>
+            <div class ="CaixaPostarPiu">
+                <div class="UserImagem">
+                    <img src="Usuario.svg">                       
+                </div>
+                <div class="TextAreaESubmit">
+                    <textarea id="PostPiu" placeholder ="O que está acontecendo?" class="TextArea" onkeyup="characterCounter()"></textarea>
+                    <div id="contadorESubmit">
+                        <div id="contador">
+                            <span id="caracteres">0</span> <span id="maximo">/ 140</span>
+                        </div>
+                        <div class="warnings">
+                        </div>
+                        <button class="BotaoPiuar" onclick="PostaNoFeed()">Piuar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="PiusFeed">
+ 
+            </div>
+        </div>
+    </div>
+</body>
+</html>
