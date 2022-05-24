@@ -12,20 +12,23 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,200&display=swap');
     </style>
-    <script src="Exemplo.js" defer></script>
+    <script src="PiupiuerJS.js" defer></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 </head>
 <body>
     <div class="PaginaPrincipal">
         <div class="MenuEsquerda">              
             <div class="ImagemFenix">
-                <img src="ImagemFenix.svg">
+                <img src="Imagens/ImagemFenix.svg">
             </div>
 
             <div class="BotoesEsquerda">
                 <button type="button" class="BotaoPaginaInicial">Página Inicial</button>
 
-                <button type="button" class="BotaoExplorar">#Explorar</button>
+                <button type="button" class="BotaoPesquisar" onclick="TextoBusca()">
+                    <img src="Imagens/Lupa.png" width="32px" height="32px">
+                    Pesquisar
+                </button>
 
                 <button type="button" class="BotaoMensagens">
                     <svg width="35" height="33" viewBox="0 0 35 33" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -34,12 +37,12 @@
                     Mensagens
                 </button>
                 <button type="button" class="BotaoPerfil">
-                    <img src="ImagemPerfil.svg">
+                    <img src="Imagens/ImagemPerfil.svg">
                     Perfil
                 </button>
             </div>
             <div class="CaixaUser">
-                <img src="ImagemUser.svg" width="48px" height="48px"> 
+                <img src="Imagens/ImagemUser.svg" width="48px" height="48px"> 
                 <div class="NomeEUser">
                     <p class="Nome"><strong>Pejoteiro</strong> <br> @pejoteiro123</p>
                 </div>
@@ -47,10 +50,11 @@
         </div>
 
         <div class="CorpoCentral">
+            <div class =  "BarraPesquisa"></div>
             <h1 class="Pagina PrincipaTexto">Página Principal</h1>
             <div class ="CaixaPostarPiu">
                 <div class="UserImagem">
-                    <img src="Usuario.svg">                       
+                    <img src="Imagens/Usuario.svg">                       
                 </div>
                 <div class="TextAreaESubmit">
                     <textarea id="PostPiu" placeholder ="O que está acontecendo?" class="TextArea" onkeyup="characterCounter()"></textarea>
